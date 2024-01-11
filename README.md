@@ -2,6 +2,14 @@
 
 A simple CLI tool for automatically creating the parent directory when cloning a git repository.
 
+## Installation
+
+Clone the repository and run the following command:
+
+```console
+$ cargo install --path .
+```
+
 ## Usage
 
 ```console
