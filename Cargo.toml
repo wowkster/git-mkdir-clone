@@ -1,0 +1,11 @@
+[package]
+name = "git-mkdir-clone"
+version = "0.1.0"
+edition = "2021"
+description = "CLI tool to create the parent directory automatically when cloing a git repository"
+authors = ["Adrian Wowk <dev@adrianwowk.com>"]
+license-file = "LICENSE"
+
+[dependencies]
+clap = { version = "4.4.15", features = ["derive"] }
+url = "2.5.0"
